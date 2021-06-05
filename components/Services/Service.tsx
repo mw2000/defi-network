@@ -1,5 +1,5 @@
 import React from 'react'
-import { ServiceModel } from './Services';
+import { ServiceModel } from '../../data/serviceData';
 
 const Service = (props: any) => {
     const service: ServiceModel = props.service;
