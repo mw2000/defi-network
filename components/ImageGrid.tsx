@@ -26,16 +26,19 @@ const ImageGrid = () => {
         if (index === 4 || index === 7 || index === 10) {
             return '-mt-12'
         }
+
     }
 
+    const gridStyle = { minWidth: '72px' }
+
     return (
-        <div className="grid grid-cols-11 gap-4 mt-44">
+        <div className="flex flex-nowrap items-center gap-4 mt-44 overflow-x-hidden" >
             {
                 gridImages.map(
                     (grid: GridImage, index: number) => {
-                        return <div className={"h-96 w-full relative "
+                        return <div className={"h-72 lg:h-96 2xl:h-xxl w-full relative flex-1 "
                             + (returnMargin(index + 1))
-                        } key={index}>
+                        } key={index} style={gridStyle}>
                             <Image
                                 src={grid.image}
                                 layout="fill"

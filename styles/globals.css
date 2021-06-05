@@ -2,8 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+input:focus-within ~ label,
+input:not(:placeholder-shown) ~ label,
+textarea:focus-within ~ label,
+textarea:not(:placeholder-shown) ~ label {
+  @apply transform scale-75 -translate-y-6 origin-0;
+}
+
+input:focus-within ~ label,
+textarea:focus-within ~ label {
+  @apply text-defi-blue;
+}
+
 html,
 body {
+  scroll-behavior: smooth;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,

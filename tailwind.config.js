@@ -5,7 +5,9 @@ module.exports = {
     extend: {
       colors: {
         'defi-blue': '#3458D5',
-        'defi-purple': '#8B47E2'
+        'defi-purple': '#8B47E2',
+        'defi-dark': '#1D1929',
+        'defi-light': '#C8C4D4'
         // 'vert-green':
         // {
         //   DEFAULT: '#06EAEA',
@@ -13,10 +15,22 @@ module.exports = {
         //   dark: '#03e1e1'
         // }
       },
+      height: {
+        xxl: '36rem'
+      },
+      transformOrigin: {
+        "0": "0%",
+      },
+      zIndex: {
+        "-1": "-1",
+      }
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      borderColor: ['focus-within'],
+      // 'responsive', 'hover', 'focus', 
+    }
   },
   plugins: [],
 }

@@ -2,11 +2,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Hero from '../components/Hero'
-import Projects from '../components/Projects'
+import Projects from '../components/Projects/Projects'
 import ImageGrid from '../components/ImageGrid'
-import Services from '../components/Services';
+import Services from '../components/Services/Services';
 import Technologies from '../components/Technologies'
-import Team from '../components/Team'
+import Team from '../components/Team/Team'
+import Partnerships from '../components/Partnerships/Partnerships'
+import FAQ from '../components/FAQ'
 
 export default function Home() {
   return (
@@ -24,6 +26,8 @@ export default function Home() {
         <Services />
         <Technologies />
         <Team />
+        <Partnerships />
+        <FAQ />
         {/* <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
