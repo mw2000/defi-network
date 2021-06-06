@@ -10,7 +10,7 @@ const ProjectGroup = (props: any) => {
             {
                 projects.map(
                     (project: ProjectModel, index: number) => {
-                        return <div key={index} className={index === 3 ? 'md:-mt-48' : ''} style={{ gridColumn: index === 4 ? 'md:span 2' : 'md:span 1' }}>
+                        return <div key={index} className={index === 3 ? 'md:-mt-48' : ''} style={{ gridColumn: (index === 4 && window.innerWidth >= 768) ? 'span 2' : 'span 1' }}>
                             {(index === 0 || index === 3) && <div className="bg-gray-200">
                                 <div className="pl-2 pt-2 md:pl-4 md:pt-4 lg:pl-8 lg:pt-8 flex">
                                     <Image
