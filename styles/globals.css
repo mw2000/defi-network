@@ -1,9 +1,11 @@
 @font-face {
+  font-display: swap;
   font-family: "NeueMachina";
   src: url("/Fonts/Neue Machina/NeueMachina-Regular.woff2") format("woff2"),
     url("/Fonts/Neue Machina/NeueMachina-Regular.woff") format("woff");
 }
 @font-face {
+  font-display: swap;
   font-family: "NeueMachina";
   src: url("/Fonts/Neue Machina/NeueMachina-Bold.woff2") format("woff2"),
     url("/Fonts/Neue Machina/NeueMachina-Bold.woff") format("woff");
@@ -11,6 +13,7 @@
 }
 
 @font-face {
+  font-display: swap;
   font-family: "NeueMachina";
   src: url("/Fonts/Neue Machina/NeueMachina-Medium.woff2") format("woff2"),
     url("/Fonts/Neue Machina/NeueMachina-Medium.woff") format("woff");
@@ -18,15 +21,18 @@
 }
 
 @font-face {
+  font-display: swap;
   font-family: "NeueMontreal";
   src: url("/Fonts/Neue Montreal/NeueMontreal-Regular.otf") format("opentype");
 }
 @font-face {
+  font-display: swap;
   font-family: "NeueMontreal";
   src: url("/Fonts/Neue Montreal/NeueMontreal-Bold.otf") format("opentype");
   font-weight: bold;
 }
 @font-face {
+  font-display: swap;
   font-family: "NeueMontreal";
   src: url("/Fonts/Neue Montreal/NeueMontreal-Medium.otf") format("opentype");
   font-weight: 500;

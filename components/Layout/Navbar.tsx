@@ -48,7 +48,7 @@ const Navbar = () => {
             <div className="flex justify-between items-center px-0 md:px-4">
                 <span role="link" tabIndex={1} className="cursor-pointer">
                     <Link href="/" aria-role="home" >
-                        <img src="/logo.svg" width="200px" alt="brand logo" />
+                        <Image src="/logo.svg" alt="brand logo" width={202} height={48} />
                     </Link>
                 </span>
 

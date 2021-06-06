@@ -54,6 +54,7 @@ const Technologies = () => {
                     height={526}
                     objectFit="contain"
                     quality={100}
+                    alt="technlogy art"
                 />
             </div>
 
@@ -67,8 +68,8 @@ const Technologies = () => {
                         technologies.map(
                             (technology: TechnologyModel, index: number) => {
                                 return <div key={index} className="flex flex-col items-center justify-center mb-12">
-                                    <Image src={technology.image} width={50} height={60} />
-                                    <p className="text-base mt-3">{technology.name}</p>
+                                    <Image src={technology.image} width={50} height={60} alt={technology.name} />
+                                    <p className="text-base mt-3" >{technology.name}</p>
                                 </div>
 
                             }
