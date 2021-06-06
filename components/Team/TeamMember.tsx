@@ -11,7 +11,7 @@ const TeamMember = (props: any) => {
             <p className="mb-3 mt-1 text-base">{member.role}</p>
             <div className="flex gap-4">
                 {member.linkedIn !== '' && <a href={member.linkedIn}>
-                    <Image className="cursor-pointer" src="/linkedIn.svg" width={20} height={20} alt="linked profile link" />
+                    <Image className="cursor-pointer" src="/linkedin.svg" width={20} height={20} alt="linked profile link" />
                 </a>}
                 {member.twitter !== '' && <a href={member.twitter}>
                     <Image className="cursor-pointer" src="/twitter.svg" width={20} height={20} alt="twitter profile link" />
