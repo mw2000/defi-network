@@ -23,18 +23,21 @@
 @font-face {
   font-display: swap;
   font-family: "NeueMontreal";
-  src: url("/Fonts/Neue Montreal/NeueMontreal-Regular.otf") format("opentype");
+  src: url("/Fonts/Neue Montreal/NeueMontreal-Regular.woff2") format("woff2"),
+    url("/Fonts/Neue Montreal/NeueMontreal-Regular.woff") format("woff");
 }
 @font-face {
   font-display: swap;
   font-family: "NeueMontreal";
-  src: url("/Fonts/Neue Montreal/NeueMontreal-Bold.otf") format("opentype");
+  src: url("/Fonts/Neue Montreal/NeueMontreal-Bold.woff2") format("woff2"),
+    url("/Fonts/Neue Montreal/NeueMontreal-Bold.woff") format("woff");
   font-weight: bold;
 }
 @font-face {
   font-display: swap;
   font-family: "NeueMontreal";
-  src: url("/Fonts/Neue Montreal/NeueMontreal-Medium.otf") format("opentype");
+  src: url("/Fonts/Neue Montreal/NeueMontreal-Medium.woff2") format("woff2"),
+    url("/Fonts/Neue Montreal/NeueMontreal-Medium.woff") format("woff");
   font-weight: 500;
 }
 

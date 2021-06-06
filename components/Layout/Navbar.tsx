@@ -48,7 +48,9 @@ const Navbar = () => {
             <div className="flex justify-between items-center px-0 md:px-4">
                 <span role="link" tabIndex={1} className="cursor-pointer">
                     <Link href="/" aria-role="home" >
-                        <Image src="/logo.svg" alt="brand logo" width={202} height={48} />
+                        <a>
+                            <Image src="/logo.svg" alt="brand logo" width={202} height={48} />
+                        </a>
                     </Link>
                 </span>
 
@@ -78,10 +80,12 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <div className="hidden md:block border-solid border-2 px-3 py-2 text-defi-blue transition duration-500 ease-in-out hover:bg-defi-blue hover:text-white border-defi-blue text-sm font-bold">
+                <div className="cursor-pointer hidden md:block border-solid border-2 px-3 py-2 text-defi-blue transition duration-500 ease-in-out hover:bg-defi-blue hover:text-white border-defi-blue text-sm font-bold">
                     <Link href="/#contact" >
-                        Get in touch
-                </Link>
+                        <a className="hover:text-white">
+                            Get in touch
+                        </a>
+                    </Link>
                 </div>
             </div>
         </nav>
