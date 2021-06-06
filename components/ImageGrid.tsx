@@ -44,6 +44,7 @@ const ImageGrid = () => {
                                 layout="fill"
                                 objectFit="cover"
                                 quality={100}
+                                alt="grid image"
                             />
                         </div>
                     }

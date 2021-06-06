@@ -46,7 +46,7 @@ const Navbar = () => {
         <nav className={"relative p-4 inset-x-0 top-0 z-50 bg-white"} style={{ height: isSmallScreen ? '72px' : 'auto' }}>
             {/* md:max-w-screen-xl  xl:mx-auto */}
             <div className="flex justify-between items-center px-0 md:px-4">
-                <span role="link" tabIndex={1} className="cursor-pointer">
+                <span role="link" className="cursor-pointer">
                     <Link href="/" aria-role="home" >
                         <a>
                             <Image src="/logo.svg" alt="brand logo" width={202} height={48} />
