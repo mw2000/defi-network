@@ -13,7 +13,7 @@ const Layout = (props: any) => {
             <ContactForm />
             <footer className="mt-32 lg:max-w-4xl xl:max-w-5xl xl:pl-8 2xl:max-w-7xl lg:mx-auto px-4 lg:px-0">
                 <div className="flex flex-col">
-                    <div className="grid lg:grid-cols-3 gap-12">
+                    <div className="grid md:grid-cols-3 gap-12">
                         <div>
                             <Image src="/blueLogo.svg" alt="the defi network logo" width={40} height={40} />
                             <p className="text-lg">Step into blockchain.</p>
@@ -24,7 +24,7 @@ const Layout = (props: any) => {
                             <p className="mb-3 mt-16 font-bold">Location —</p>
                             <p>California, USA</p>
                         </div>
-                        <div className="flex justify-between lg:pl-8">
+                        <div className="flex gap-20 lg:gap-0 lg:justify-between lg:pl-8">
                             <ul className="space-y-5">
                                 <li>
                                     <Link href="/home">Home</Link>

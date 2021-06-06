@@ -39,7 +39,7 @@ const Projects = () => {
 
     return (
         <div id="projects" className="mt-32 lg:max-w-4xl xl:max-w-5xl xl:pl-8 2xl:max-w-7xl lg:mx-auto">
-            <p className={"font-bold " + (isProjectRoute ? 'text-5xl mb-12' : 'text-2xl mb-8')}>{isProjectRoute ? 'All' : 'Past'} Projects</p>
+            <h2 className={"font-bold pl-4 lg:pl-0 " + (isProjectRoute ? 'text-5xl mb-12' : 'text-2xl mb-8')}>{isProjectRoute ? 'All' : 'Past'} Projects</h2>
             {
                 groupedProjects.map(
                     (groupProj: ProjectModel[], index: number) => {
@@ -47,8 +47,10 @@ const Projects = () => {
                     }
                 )
             }
-            {!isProjectRoute && <div className="mt-32 text-xl font-semibold">
+            {!isProjectRoute && <div className="mt-32 text-2xl font-medium font-neueMachina pl-4 lg:pl-0">
                 <Link href="/projects"><a>View all projects ↗</a></Link>
+                <div className="bg-gray-100 h-0.5 mt-8"></div>
+
             </div>}
         </div>
     )

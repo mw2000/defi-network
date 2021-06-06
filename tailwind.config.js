@@ -8,12 +8,9 @@ module.exports = {
         'defi-purple': '#8B47E2',
         'defi-dark': '#1D1929',
         'defi-light': '#C8C4D4'
-        // 'vert-green':
-        // {
-        //   DEFAULT: '#06EAEA',
-        //   light: '#b4f9f9',
-        //   dark: '#03e1e1'
-        // }
+      },
+      fontFamily: {
+        'neueMachina': 'NeueMachina'
       },
       height: {
         xxl: '36rem'
@@ -29,6 +26,7 @@ module.exports = {
   variants: {
     extend: {
       borderColor: ['focus-within'],
+      textColor: ['hover'],
       // 'responsive', 'hover', 'focus', 
     }
   },

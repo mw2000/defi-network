@@ -9,9 +9,9 @@ const Partnerships = () => {
 
 
     return (
-        <div id="partnerships" className="mt-32 lg:max-w-4xl xl:max-w-5xl xl:pl-8 2xl:max-w-7xl lg:mx-auto ">
+        <div id="partnerships" className="mt-32 lg:max-w-4xl xl:max-w-5xl xl:pl-8 2xl:max-w-7xl lg:mx-auto px-4 lg:px-0">
             <h2 className="text-lg">Partnerships</h2>
-            <p className="text-5xl font-bold my-5">Some of our <br className="hidden lg:inline-block" /> partners & clients.</p>
+            <p className="text-5xl font-medium font-neueMachina my-5">Some of our <br className="hidden lg:inline-block" /> partners & clients.</p>
 
             <div className="mt-24 grid md:grid-cols-3 gap-16">
                 {
@@ -23,7 +23,7 @@ const Partnerships = () => {
                     )
                 }
             </div>
-            <p className="text-2xl mt-20">Interested in partnering? <Link href="/contact"> Get in touch ↗</Link></p>
+            <p className="text-2xl mt-20 font-neueMachina">Interested in partnering? <Link href="/#contact"> Get in touch ↗</Link></p>
         </div>
     )
 }

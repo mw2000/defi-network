@@ -9,7 +9,7 @@ const NextProjects = (props: any) => {
 
     return (
         <div className="mb-36 mt-36">
-            <h2 className="text-5xl font-bold">What’s next?</h2>
+            <h2 className="text-5xl font-medium">What’s next?</h2>
             <div className="grid gap-36 lg:grid-cols-2 ">
                 {
                     projects.map(
@@ -37,9 +37,9 @@ const NextProjects = (props: any) => {
                                         />
                                     </div>
                                 }
-                                <h2 className="text-2xl font-bold mt-4">{project.name}</h2>
+                                <h2 className="text-2xl font-bold mt-4">{project.name} —</h2>
                                 <p className={"mt-2 " + (index === 4 ? 'w-1/2' : 'w-full')}>{project.excerpt}</p>
-                                <div className="mt-8 text-xl font-semibold">
+                                <div className="mt-8 text-xl font-medium font-neueMachina">
                                     <Link href={`/case-study/${encodeURIComponent(project.id)}`}><a>View case study ↗</a></Link>
                                 </div>
                             </div>

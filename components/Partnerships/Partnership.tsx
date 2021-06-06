@@ -9,7 +9,7 @@ const Partnership = (props: any) => {
     return (
         <div>
             <Image src={partner.image} alt={partner.name} width={130} height={40} />
-            <p className="text-xl font-bold mt-5 mb-4">{partner.name}</p>
+            <p className="text-xl font-bold font-neueMachina mt-5 mb-4">{partner.name}</p>
             <p className="text-lg">{partner.description}</p>
             <p className="text-base text-gray-400 mt-4">{partner.type}</p>
         </div>

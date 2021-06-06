@@ -46,7 +46,7 @@ const Technologies = () => {
 
 
     return (
-        <div id="technologies" className="mt-32 lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl lg:mx-auto flex flex-col md:flex-row gap-0 lg:gap-24 items-center">
+        <div id="technologies" className="px-4 lg:px-0 mt-32 lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl lg:mx-auto flex flex-col md:flex-row gap-0 lg:gap-24 items-center">
             <div className="h-full w-full flex-1 order-2 lg:order-1">
                 <Image
                     src="/technologyArt.png"
@@ -59,7 +59,7 @@ const Technologies = () => {
 
             <div className="flex-2 order-1 lg:order-2">
                 <h2 className="text-lg">Technologies</h2>
-                <p className="text-5xl font-bold my-5">The tools & technologies  <br className="hidden lg:inline-block" /> we work with</p>
+                <p className="text-5xl font-medium font-neueMachina my-5">The tools & technologies  <br className="hidden lg:inline-block" /> we work with</p>
                 <p className="text-lg">Netus sit amet nibh et condimentum sapien sed. Aliquam non nisl dictum <br className="hidden lg:inline-block" />pulvinar mauris sed duis. Integer turpis quis at commodo risus dignissim.</p>
 
                 <div className="mt-12 grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 -ml-6">

@@ -19,7 +19,7 @@ const CaseStudy = (props: any) => {
                     <div className="lg:col-span-3 lg:self-end pt-16">
                         <p className="text-2xl" dangerouslySetInnerHTML={{ __html: project.caseStudy.abstract }}></p>
                     </div>
-                    <ul className="col-span-2 space-y-3 text-lg hidden lg:block">
+                    <ul className="col-span-2 space-y-3 text-lg hidden lg:block font-neueMachina">
                         {
                             project.caseStudy.technologies.map(
                                 (tech: string, index: number) => {
@@ -44,8 +44,8 @@ const CaseStudy = (props: any) => {
 
                 <div className="max-w-screen-md mt-20 mx-auto">
                     <p className="pt-5">{project.caseStudy.description2}</p>
-                    <div className="py-20 text-defi-blue text-center">
-                        <p className="text-2xl">"{project.caseStudy.testimonial.text}"</p>
+                    <div className="py-20 text-defi-blue text-center font-neueMachina">
+                        <p className="text-2xl ">"{project.caseStudy.testimonial.text}"</p>
                         <p className="text-lg font-bold mt-4">— {project.caseStudy.testimonial.employeeName}, {project.caseStudy.testimonial.emloyeeRole}</p>
                     </div>
                     <h2 className="text-5xl">{project.caseStudy.heading2}</h2>
