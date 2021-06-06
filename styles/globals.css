@@ -79,6 +79,13 @@ body {
   font-family: NeueMontreal, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+
+@media screen and (min-width: 768px) {
+  .hero-line-height {
+    line-height: 4.2rem !important;
+  }
+}
+
 /* 
 a {
   color: inherit;

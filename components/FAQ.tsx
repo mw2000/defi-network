@@ -7,7 +7,7 @@ const FAQ = () => {
     return (
         <div id="faq" className="mt-32 lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl lg:mx-auto bg-defi-dark text-white px-4 md:px-24 py-16">
             <h1 className="text-lg text-center font-neueMachina">FAQ's </h1>
-            <p className="text-5xl text-center mt-3 mb-12 font-neueMachina">Questions</p>
+            <p className="text-4/5xl lg:text-5xl leading-tight text-center mt-3 mb-12 font-neueMachina">Questions</p>
             <div className="flex flex-col md:flex-row gap-0 md:gap-24 text-xl ">
                 <div className="flex-col flex-1">
                     <div className="mb-12">

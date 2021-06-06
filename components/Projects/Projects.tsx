@@ -24,9 +24,14 @@ const Projects = () => {
             tempProjects = [...tempProjects, projects.slice(i, i + chunk)];
         }
 
-
         if (!isProjectRoute) {
-            setGroupedProjects([tempProjects[0]]);
+
+            if (window.innerWidth < 768) {
+                const slicedProjects = [tempProjects[0].slice(0, 2)];
+                setGroupedProjects(slicedProjects);
+            } else {
+                setGroupedProjects([tempProjects[0]]);
+            }
         } else {
             setGroupedProjects(tempProjects);
         }
@@ -34,15 +39,12 @@ const Projects = () => {
     }, [])
 
 
-
-
-
-
     return (
         <>
             <Meta title={'Projects of The Defi Network LLC'} />
-            <div id="projects" className="mt-32 lg:max-w-4xl xl:max-w-5xl xl:pl-8 2xl:max-w-7xl lg:mx-auto">
-                <h2 className={"font-bold pl-4 lg:pl-0 " + (isProjectRoute ? 'text-5xl mb-12' : 'text-2xl mb-8')}>{isProjectRoute ? 'All' : 'Past'} Projects</h2>
+            <div id="projects" className="mt-20 lg:mt-32 lg:max-w-4xl xl:max-w-5xl xl:pl-8 2xl:max-w-7xl lg:mx-auto">
+                {!isProjectRoute && <h2 className="font-bold pl-4 lg:pl-0 text-2xl mb-8">Past Projects</h2>}
+                {isProjectRoute && <h1 className="font-bold pl-4 lg:pl-0 text-4/5xl leading-tight lg:text-5xl mb-12">All Projects</h1>}
                 {
                     groupedProjects.map(
                         (groupProj: ProjectModel[], index: number) => {

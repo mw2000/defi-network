@@ -73,9 +73,9 @@ const ContactForm = () => {
 
     return (
         <div id="contact" className="mt-32 lg:max-w-4xl xl:max-w-5xl xl:pl-8 2xl:max-w-7xl lg:mx-auto">
-            <h2 className="text-lg text-center">Get in touch</h2>
-            <p className="text-5xl font-medium my-5 text-center font-neueMachina">Have a project in mind?  <br className="hidden lg:inline-block" /> Let's work together.</p>
-            {!success && <> <p className="text-xl text-center">Please fill out the form below and we will be in touch soon.</p>
+            <h2 className="text-lg text-center px-4 md:px-0">Get in touch</h2>
+            <p className="text-4/5xl leading-tight lg:text-5xl font-medium my-5 text-center font-neueMachina px-4 md:px-0">Have a project in mind?  <br className="hidden lg:inline-block" /> Let's work together.</p>
+            {!success && <> <p className="text-xl text-center px-4 md:px-0">Please fill out the form below and we will be in touch soon.</p>
                 <form onSubmit={formik.handleSubmit} className="flex flex-col max-w-lg mx-auto mt-12 px-4 lg:px-0">
                     <div className="my-8">
                         <div className="border-b-2 focus-within:border-defi-blue relative ">
@@ -131,7 +131,7 @@ const ContactForm = () => {
             </>
             }
             {success && <div className="flex flex-col justify-center items-center">
-                <p className="text-xl text-defi-blue">Your message was sent!  We’ll get back to you shortly.</p>
+                <p className="text-xl text-defi-blue px-4 md:px-0">Your message was sent!  We’ll get back to you shortly.</p>
                 <div className="relative">
                     <div className="absolute inset-0 w-full h-full flex justify-center items-center z-10">
                         <Image src="/success.svg" alt="email successfully sent" width={190} height={190} />

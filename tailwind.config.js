@@ -18,9 +18,15 @@ module.exports = {
       transformOrigin: {
         "0": "0%",
       },
+      fontSize: {
+        '4/5xl': '2.5rem'
+      },
       zIndex: {
         "-1": "-1",
-      }
+      },
+      transitionProperty: {
+        'opacity-top': 'opacity, top'
+      },
     },
   },
   variants: {

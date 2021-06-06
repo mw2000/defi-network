@@ -60,7 +60,7 @@ const Technologies = () => {
 
             <div className="flex-2 order-1 lg:order-2">
                 <h2 className="text-lg">Technologies</h2>
-                <p className="text-5xl font-medium font-neueMachina my-5">The tools & technologies  <br className="hidden lg:inline-block" /> we work with</p>
+                <p className="text-4/5xl lg:text-5xl leading-tight font-medium font-neueMachina my-5">The tools & technologies  <br className="hidden lg:inline-block" /> we work with</p>
                 <p className="text-lg">Netus sit amet nibh et condimentum sapien sed. Aliquam non nisl dictum <br className="hidden lg:inline-block" />pulvinar mauris sed duis. Integer turpis quis at commodo risus dignissim.</p>
 
                 <div className="mt-12 grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 -ml-6">

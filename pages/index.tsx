@@ -12,14 +12,28 @@ export default function Home() {
     <div >
 
       <main >
-        <Hero />
-        <Projects />
+        <section>
+          <Hero />
+        </section>
+        <section>
+          <Projects />
+        </section>
         <ImageGrid />
-        <Services />
-        <Technologies />
-        <Team />
-        <Partnerships />
-        <FAQ />
+        <section>
+          <Services />
+        </section>
+        <section>
+          <Technologies />
+        </section>
+        <section>
+          <Team />
+        </section>
+        <section>
+          <Partnerships />
+        </section>
+        <section>
+          <FAQ />
+        </section>
       </main>
 
     </div>
