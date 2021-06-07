@@ -75,7 +75,7 @@ const Layout = (props: any) => {
                             </div>
                         </div>
                         <div className="pt-20 pb-5">
-                            <span >&#169;Copyright {new Date().getFullYear()} The Defi Network. All rights reserved.</span>
+                            <span >&#169; Copyright {new Date().getFullYear()} The Defi Network. All rights reserved.</span>
                         </div>
                     </div>
                 </footer>

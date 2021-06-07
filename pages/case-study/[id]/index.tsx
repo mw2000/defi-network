@@ -17,8 +17,8 @@ const CaseStudy = (props: any) => {
             <Meta title={project.name} description={project.caseStudy.abstract} />
             <div>
                 <div id="case-study" className="mt-32 lg:max-w-4xl xl:max-w-5xl xl:pl-8 2xl:max-w-7xl lg:mx-auto">
-                    <h1 className="font-bold text-5xl " > {project?.name} —</h1>
-                    <div className="lg:grid lg:grid-cols-5 lg:gap-24">
+                    <h1 className="font-bold text-5xl px-4 lg:px-0" > {project?.name} —</h1>
+                    <div className="lg:grid lg:grid-cols-5 lg:gap-24 px-4 lg:px-0">
                         <div className="lg:col-span-3 lg:self-end pt-16">
                             <p className="text-2xl" dangerouslySetInnerHTML={{ __html: project.caseStudy.abstract }}></p>
                         </div>
@@ -36,7 +36,7 @@ const CaseStudy = (props: any) => {
                     <div className="mt-20">
                         <Image src="/project5.png" alt="project image" width={1154} height={600} objectFit="cover" objectPosition="center center"></Image>
                     </div>
-                    <div className="max-w-screen-md mt-20 mx-auto">
+                    <div className="max-w-screen-md mt-20 mx-auto px-4 lg:px-0">
                         <h2 className="text-5xl">{project.caseStudy.heading1}</h2>
                         <p className="pt-5 ">{project.caseStudy.description1}</p>
                     </div>
@@ -45,7 +45,7 @@ const CaseStudy = (props: any) => {
                         <Image src="/project5.png" alt="project image" width={512} height={363} objectFit="cover" objectPosition="center center"></Image>
                     </div>
 
-                    <div className="max-w-screen-md mt-20 mx-auto">
+                    <div className="max-w-screen-md mt-20 mx-auto px-4 lg:px-0">
                         <p className="pt-5">{project.caseStudy.description2}</p>
                         <div className="py-20 text-defi-blue text-center font-neueMachina">
                             <p className="text-2xl ">"{project.caseStudy.testimonial.text}"</p>
@@ -64,12 +64,12 @@ const CaseStudy = (props: any) => {
                         <Image src="/project5.png" alt="project image" width={952} height={635} objectFit="cover" objectPosition="center center"></Image>
                     </div>
 
-                    <div className="max-w-screen-md mb-20 mx-auto">
+                    <div className="max-w-screen-md mb-20 mx-auto px-4 lg:px-0">
                         <h2 className="text-5xl">The result</h2>
                         <p className="pt-5">{project.caseStudy.resultDescription}</p>
                     </div>
 
-                    {project.caseStudy.projectLink !== '' && <div className="max-w-screen-md mb-20 mx-auto">
+                    {project.caseStudy.projectLink !== '' && <div className="max-w-screen-md mb-20 mx-auto px-4 lg:px-0">
                         <Link href={project.caseStudy.projectLink}><a className="text-3xl">Visit {project.name} ↗</a></Link>
                     </div>}
 
