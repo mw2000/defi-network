@@ -34,25 +34,25 @@ const Navbar = () => {
 
                 </button>
                 <div className={`transition-opacity-top duration-500 ease-out pb-12 md:pb-0 flex fixed left-0 right-0 top-0 -z-1 lg:z-10 pt-24 md:pt-0 bg-white gap-4 md:gap-0 
-                md:flex flex-col md:flex-row md:relative flex-1 justify-center items-center font-medium xl:px-20 md:mx-12 ` +
+                                 md:flex flex-col md:flex-row md:relative flex-1 justify-center items-center font-medium ` +
                     (showNavLinks ? 'opacity-1 bottom-0' : 'opacity-0 -top-full bottom-full')}>
 
-                    <div className="md:flex-1 text-center">
+                    <div className="md:mr-4 lg:mr-8 text-center">
                         <a href="/#projects" onClick={closeNavlinks}>Projects</a>
                     </div>
-                    <div className="md:flex-1 text-center">
+                    <div className="md:mr-4 lg:mr-8 text-center">
                         <a href="/#services" onClick={closeNavlinks}>Services</a>
                     </div>
-                    <div className="md:flex-1 text-center">
+                    <div className="md:mr-4 lg:mr-8 text-center">
                         <a href="/#technologies" onClick={closeNavlinks}>Technologies</a>
                     </div>
-                    <div className="md:flex-1 text-center">
+                    <div className="md:mr-4 lg:mr-8 text-center">
                         <a href="/#team" onClick={closeNavlinks}>Team</a>
                     </div>
-                    <div className="md:flex-1 text-center">
+                    <div className="md:mr-4 lg:mr-8 text-center">
                         <a href="/#partnerships" onClick={closeNavlinks}>Partnerships</a>
                     </div>
-                    <div className="md:flex-1 text-center">
+                    <div className="text-center">
                         <a href="/#faq" onClick={closeNavlinks}>FAQ</a>
                     </div>
                     <div className="mt-auto block cursor-pointer md:hidden border-solid border-2 w-4/5 text-center  py-2 text-defi-blue transition duration-500 ease-in-out hover:bg-defi-blue hover:text-white border-defi-blue  font-bold">

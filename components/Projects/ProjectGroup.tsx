@@ -6,7 +6,7 @@ import { ProjectModel } from '../../data/projectsData';
 const ProjectGroup = (props: any) => {
     const projects = props.projectGroup;
     return (
-        <div className="grid gap-36 grid-cols-1 md:grid-cols-2 mb-36 px-4 xl:px-0">
+        <div className="grid gap-36 grid-cols-1 lg:grid-cols-2 mb-36 px-4 xl:px-0">
             {
                 projects.map(
                     (project: ProjectModel, index: number) => {
