@@ -33,23 +33,23 @@ const Navbar = () => {
                     {showNavLinks && <Image src="/closeMenu.svg" width={24} height={24} alt="close mobile menu" />}
 
                 </button>
-                <div className={`transition-opacity-top duration-500 ease-out pb-12 md:pb-0 flex fixed left-0 right-0 top-0 -z-1 lg:z-10 pt-24 md:pt-0 bg-white gap-4 md:gap-0 
+                <div className={`transition-opacity-top duration-500 ease-out pb-12 md:pb-0 flex fixed left-0 right-0 top-0 -z-1 lg:z-10 pt-24 md:pt-0 bg-white sapce-y-4 md:space-y-0 
                                  md:flex flex-col md:flex-row md:relative flex-1 justify-center items-center font-medium ` +
                     (showNavLinks ? 'opacity-1 bottom-0' : 'opacity-0 -top-full bottom-full')}>
 
-                    <div className="md:mr-4 lg:mr-8 text-center">
+                    <div className="md:mr-4 mb-4 lg:mb-0 lg:mr-8 text-center">
                         <a href="/#projects" onClick={closeNavlinks}>Projects</a>
                     </div>
-                    <div className="md:mr-4 lg:mr-8 text-center">
+                    <div className="md:mr-4 mb-4 lg:mb-0 lg:mr-8 text-center">
                         <a href="/#services" onClick={closeNavlinks}>Services</a>
                     </div>
-                    <div className="md:mr-4 lg:mr-8 text-center">
+                    <div className="md:mr-4 mb-4 lg:mb-0 lg:mr-8 text-center">
                         <a href="/#technologies" onClick={closeNavlinks}>Technologies</a>
                     </div>
-                    <div className="md:mr-4 lg:mr-8 text-center">
+                    <div className="md:mr-4 mb-4 lg:mb-0 lg:mr-8 text-center">
                         <a href="/#team" onClick={closeNavlinks}>Team</a>
                     </div>
-                    <div className="md:mr-4 lg:mr-8 text-center">
+                    <div className="md:mr-4 mb-4 lg:mb-0 lg:mr-8 text-center">
                         <a href="/#partnerships" onClick={closeNavlinks}>Partnerships</a>
                     </div>
                     <div className="text-center">
