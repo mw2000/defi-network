@@ -64,13 +64,13 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <div className="cursor-pointer hidden md:block border-solid border-2 px-3 py-2 text-defi-blue transition duration-500 ease-in-out hover:bg-defi-blue hover:text-white border-defi-blue font-bold">
-                    <Link href="/#contact" >
+                <Link href="/#contact" >
+                    <div className="cursor-pointer hidden md:block border-solid border-2 px-3 py-2 text-defi-blue transition duration-500 ease-in-out hover:bg-defi-blue hover:text-white border-defi-blue font-bold">
                         <a className="hover:text-white">
                             Get in touch
                         </a>
-                    </Link>
-                </div>
+                    </div>
+                </Link>
             </div>
         </nav>
     )
