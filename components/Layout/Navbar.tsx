@@ -37,19 +37,19 @@ const Navbar = () => {
                                  md:flex flex-col md:flex-row md:relative flex-1 justify-center items-center font-medium ` +
                     (showNavLinks ? 'opacity-1 bottom-0' : 'opacity-0 -top-full bottom-full')}>
 
-                    <div className="md:mr-4 mb-4 lg:mb-0 lg:mr-8 text-center">
+                    <div className="md:mr-4 mb-4 md:mb-0 lg:mr-8 text-center">
                         <a href="/#projects" onClick={closeNavlinks}>Projects</a>
                     </div>
-                    <div className="md:mr-4 mb-4 lg:mb-0 lg:mr-8 text-center">
+                    <div className="md:mr-4 mb-4 md:mb-0 lg:mr-8 text-center">
                         <a href="/#services" onClick={closeNavlinks}>Services</a>
                     </div>
-                    <div className="md:mr-4 mb-4 lg:mb-0 lg:mr-8 text-center">
+                    <div className="md:mr-4 mb-4 md:mb-0 lg:mr-8 text-center">
                         <a href="/#technologies" onClick={closeNavlinks}>Technologies</a>
                     </div>
-                    <div className="md:mr-4 mb-4 lg:mb-0 lg:mr-8 text-center">
+                    <div className="md:mr-4 mb-4 md:mb-0 lg:mr-8 text-center">
                         <a href="/#team" onClick={closeNavlinks}>Team</a>
                     </div>
-                    <div className="md:mr-4 mb-4 lg:mb-0 lg:mr-8 text-center">
+                    <div className="md:mr-4 mb-4 md:mb-0 lg:mr-8 text-center">
                         <a href="/#partnerships" onClick={closeNavlinks}>Partnerships</a>
                     </div>
                     <div className="text-center">
