@@ -32,7 +32,7 @@ const ImageGrid = () => {
     const gridStyle = { minWidth: '72px' }
 
     return (
-        <div className="flex flex-nowrap items-center gap-4 mt-44 overflow-x-hidden" >
+        <div className="flex flex-nowrap items-center space-x-4 mt-44 overflow-x-hidden" >
             {
                 gridImages.map(
                     (grid: GridImage, index: number) => {
