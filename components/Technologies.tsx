@@ -1,49 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
+import { TechnologyData, TechnologyModel } from '../data/techonlogyData';
 
 const Technologies = () => {
 
-    const technologies: TechnologyModel[] = [
-        {
-            name: 'Ethereum',
-            image: '/ethereum.svg'
-        },
-        {
-            name: 'Cardano',
-            image: '/cardano.svg'
-        },
-        {
-            name: 'Tezos',
-            image: '/tezos.svg'
-        },
-        {
-            name: 'Polkadot',
-            image: '/polkadot.svg'
-        },
-        {
-            name: 'Flow',
-            image: '/flow.svg'
-        },
-        {
-            name: 'BNB',
-            image: '/bnb.svg'
-        },
-        {
-            name: 'Chainlink',
-            image: '/chainlink.svg'
-        },
-        {
-            name: 'Compound',
-            image: '/compound.svg'
-        },
-        {
-            name: 'Decentraland',
-            image: '/decentraland.svg'
-        },
-    ]
-
-
-
+    const technologies = TechnologyData;
 
     return (
         <div id="technologies" className="px-4 lg:px-0 mt-32 lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl lg:mx-auto flex flex-col md:flex-row gap-0 lg:gap-24 items-center">
@@ -81,9 +42,6 @@ const Technologies = () => {
     )
 }
 
-export interface TechnologyModel {
-    name: string,
-    image: string
-}
+
 
 export default Technologies

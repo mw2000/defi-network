@@ -1,5 +1,5 @@
 import React from 'react'
-import { TeamData, TeamMemberModel } from '../../data/TeamData'
+import { TeamData, TeamMemberModel } from '../../data/teamData'
 import TeamMember from './TeamMember'
 
 const Team = () => {

@@ -1,23 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+import { GridImage, ImageGridData } from '../data/imageGridData';
 
 const ImageGrid = () => {
 
 
-    const gridImages = [
-        { image: '/gridImage1.png' },
-        { image: '/gridImage2.png' },
-        { image: '/gridImage3.png' },
-        { image: '/gridImage1.png' },
-        { image: '/gridImage2.png' },
-        { image: '/gridImage3.png' },
-        { image: '/gridImage1.png' },
-        { image: '/gridImage2.png' },
-        { image: '/gridImage3.png' },
-        { image: '/gridImage1.png' },
-        { image: '/gridImage2.png' }
-
-    ]
+    const gridImages = ImageGridData;
 
     const returnMargin = (index: number) => {
         if (index === 1 || index === 3 || index === 6 || index === 9 || index === 11) {
@@ -55,10 +43,6 @@ const ImageGrid = () => {
         </div>
 
     )
-}
-
-export interface GridImage {
-    image: string
 }
 
 export default ImageGrid

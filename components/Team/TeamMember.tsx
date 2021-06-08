@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import { TeamMemberModel } from '../../data/TeamData';
+import { TeamMemberModel } from '../../data/teamData';
 
 const TeamMember = (props: any) => {
     const member: TeamMemberModel = props.member;
