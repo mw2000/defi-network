@@ -1,15 +1,11 @@
 export const ServicesData: ServiceModel[] = [
     {
-        name: 'Strategy',
-        description: ''
-    },
-    {
         name: 'Smart Contracts',
         description: 'We develop smart contracts for your blockchain project.'
     },
     {
         name: 'Auditing',
-        description: ''
+        description: 'Want to get your smart contracts audited? Contact us.'
     },
     {
         name: 'Development',

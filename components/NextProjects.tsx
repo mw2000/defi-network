@@ -40,7 +40,10 @@ const NextProjects = (props: any) => {
                                 <h2 className="text-2xl font-bold mt-4 px-4 lg:px-0">{project.name} —</h2>
                                 <p className={"mt-2 px-4 lg:px-0" + (index === 4 ? 'md:w-1/2' : 'w-full')}>{project.excerpt}</p>
                                 <div className="mt-8 text-xl font-medium font-neueMachina px-4 lg:px-0">
-                                    <Link href={`/case-study/${encodeURIComponent(project.id)}`}><a>View case study ↗</a></Link>
+                                    {/* <Link href={`/case-study/${encodeURIComponent(project.id)}`}><a>View case study ↗</a></Link> */}
+                                    <br/>
+                                    <a href={project.projectLink} target="_blank" >View Project ↗</a>
+
                                 </div>
                             </div>
                         }

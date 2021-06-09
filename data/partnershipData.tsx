@@ -1,27 +1,51 @@
 export const PartnershipData: PartnershipModel[] = [
     {
-        name: 'Chainlink',
-        image: '/chainlinkFull.svg',
-        description: 'We’ve partnered with Chainlink to bring vitae ac ultrices dictum accumsan vitae viverra.Ornare tortor, vel duis aliquam est Ornare tortor, vel duis aliquam est dui risus, ipsum. Molestie arcu non orci, ac cursus orci tortor ullamcorper.',
-        type: 'Hybrid Smart Contracts',
-        logoWidth: 130,
-        logoHeight: 40
-    },
-    {
-        name: 'Chainlink',
-        image: '/test.png',
+        name: 'Musée',
+        image: '/partners/musee.svg',
         description: 'We’ve partnered with Chainlink to bring vitae ac ultrices dictum accumsan vitae viverra. Ornare tortor, vel duis aliquam est dui risus, ipsum. Molestie arcu non orci, ac cursus orci tortor ullamcorper.',
         type: 'Hybrid Smart Contracts',
-        logoWidth: 130,
+        logoWidth: 50,
+        logoHeight: 40,
+    },
+    // {
+    //     name: 'Polarfox Labs',
+    //     image: '/test.png',
+    //     description: 'We’ve partnered with Chainlink to bring vitae ac ultrices dictum accumsan vitae viverra. Ornare tortor, vel duis aliquam est dui risus, ipsum. Molestie arcu non orci, ac cursus orci tortor ullamcorper.',
+    //     type: 'Hybrid Smart Contracts',
+    //     logoWidth: 130,
+    //     logoHeight: 40
+    // },
+    {
+        name: 'Argon Industries',
+        image: '/partners/argon.svg',
+        description: 'We’ve partnered with Chainlink to bring vitae ac ultrices dictum accumsan vitae viverra. bring vitae ac ultrices dictum accumsan vitae viverra Ornare tortor, vel duis aliquam est dui risus, ipsum. Molestie arcu non orci, ac cursus orci tortor ullamcorper.',
+        type: 'Hybrid Smart Contracts',
+        logoWidth: 40,
         logoHeight: 40
     },
     {
-        name: 'Chainlink',
-        image: '/chainlinkFull.svg',
+        name: 'Accursedshare',
+        image: '/partners/accursed.jpg',
         description: 'We’ve partnered with Chainlink to bring vitae ac ultrices dictum accumsan vitae viverra. bring vitae ac ultrices dictum accumsan vitae viverra Ornare tortor, vel duis aliquam est dui risus, ipsum. Molestie arcu non orci, ac cursus orci tortor ullamcorper.',
         type: 'Hybrid Smart Contracts',
-        logoWidth: 130,
+        logoWidth: 60,
         logoHeight: 40
+    },
+    {
+        name: 'HappyCoin',
+        image: '/partners/happy.gif',
+        description: 'We’ve partnered with Chainlink to bring vitae ac ultrices dictum accumsan vitae viverra. bring vitae ac ultrices dictum accumsan vitae viverra Ornare tortor, vel duis aliquam est dui risus, ipsum. Molestie arcu non orci, ac cursus orci tortor ullamcorper.',
+        type: 'Hybrid Smart Contracts',
+        logoWidth: 70,
+        logoHeight: 70
+    },
+    {
+        name: 'Saturna',
+        image: '/partners/saturna.gif',
+        description: 'We’ve partnered with Chainlink to bring vitae ac ultrices dictum accumsan vitae viverra. bring vitae ac ultrices dictum accumsan vitae viverra Ornare tortor, vel duis aliquam est dui risus, ipsum. Molestie arcu non orci, ac cursus orci tortor ullamcorper.',
+        type: 'Hybrid Smart Contracts',
+        logoWidth: 70,
+        logoHeight: 70
     },
 
 ]
@@ -31,5 +55,6 @@ export interface PartnershipModel {
     description: string,
     type: string,
     logoWidth: number,
-    logoHeight: number
+    logoHeight: number,
+
 }

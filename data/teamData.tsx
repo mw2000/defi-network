@@ -1,19 +1,19 @@
 export const TeamData: TeamMemberModel[] = [
     {
-        name: 'John Doe',
-        image: '/user.png',
-        role: 'string',
-        linkedIn: 'string',
-        twitter: 'string',
-        github: 'string'
+        name: 'Chaitenya Gupta',
+        image: '/chait.jpg',
+        role: 'Co-founder',
+        linkedIn: 'https://www.linkedin.com/in/chaitenyagupta/',
+        twitter: 'https://twitter.com/ChaitenyaG',
+        github: 'https://github.com/Chaitenyag'
     },
     {
-        name: 'John Doe',
-        image: '/user.png',
-        role: 'string',
-        linkedIn: 'string',
-        twitter: 'string',
-        github: 'string'
+        name: 'Mihir Wadekar',
+        image: '/mihir.jpg',
+        role: 'Co-founder',
+        linkedIn: 'https://www.linkedin.com/in/mihirwadekar/',
+        twitter: 'https://twitter.com/that_one_nerdy_',
+        github: 'https://github.com/mw2000'
     }
 ];
 

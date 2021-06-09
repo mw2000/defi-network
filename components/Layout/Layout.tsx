@@ -23,53 +23,53 @@ const Layout = (props: any) => {
                             </div>
                             <div >
                                 <p className="mb-3 font-bold">Contact us —</p>
-                                <Link href="mailto:contact@thedefi.network">contact@thedefi.network</Link>
+                                <Link href="mailto:info@thedefi.network">info@thedefi.network</Link>
                                 <p className="mb-3 mt-16 font-bold">Location —</p>
                                 <p>California, USA</p>
                             </div>
                             <div className="flex gap-20 lg:gap-0 lg:justify-between lg:pl-8">
                                 <ul className="space-y-5">
                                     <li>
-                                        <Link href="/home">Home</Link>
+                                        <Link href="/#home">Home</Link>
                                     </li>
                                     <li>
-                                        <Link href="/projects">Projects</Link>
+                                        <Link href="/#projects">Projects</Link>
                                     </li>
                                     <li>
-                                        <Link href="/services">Services</Link>
+                                        <Link href="/#services">Services</Link>
                                     </li>
                                     <li>
-                                        <Link href="/technologies">Technologies</Link>
+                                        <Link href="/#technologies">Technologies</Link>
                                     </li>
                                     <li>
-                                        <Link href="/team">Team</Link>
+                                        <Link href="/#team">Team</Link>
                                     </li>
                                     <li>
-                                        <Link href="/partnerships">Partnerships</Link>
+                                        <Link href="/#partnerships">Partnerships</Link>
                                     </li>
                                     <li>
-                                        <Link href="/faq">FAQ's</Link>
+                                        <Link href="/#faq">FAQ's</Link>
                                     </li>
                                     <li>
-                                        <Link href="/contact">Get in touch</Link>
+                                        <Link href="/#contact">Get in touch</Link>
                                     </li>
                                 </ul>
                                 <ul className="space-y-5">
                                     <li>
-                                        <Link href="/home">Twitter</Link>
+                                        <Link href="https://twitter.com/thedefinetwork">Twitter</Link>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <Link href="/projects">Facebook</Link>
-                                    </li>
-                                    <li>
+                                    </li> */}
+                                    {/* <li>
                                         <Link href="/services">Instagram</Link>
-                                    </li>
-                                    <li>
+                                    </li> */}
+                                    {/* <li>
                                         <Link href="/technologies">Medium</Link>
                                     </li>
                                     <li>
                                         <Link href="/team">Github</Link>
-                                    </li>
+                                    </li> */}
 
                                 </ul>
                             </div>
